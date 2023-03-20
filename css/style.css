@@ -17,7 +17,7 @@ body{
 
 
 .left-main{
-    padding-left: 5vw;
+    padding-left: 6vw;
 } 
 
 .tag-line{
@@ -106,12 +106,12 @@ body{
 
 .backCards{
     position: relative;
-    bottom: 42rem;
-    left: 2.5rem;
+    bottom: 47rem;
+    left: 25rem;
 }
 
 .frontCards{
     position: relative;
-    bottom: 75rem;
-    left: 49rem;
+    bottom: 89rem;
+    left: 39.7rem;
 } 
