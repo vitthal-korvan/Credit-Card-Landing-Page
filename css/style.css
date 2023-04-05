@@ -1,117 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
+
+:root{
+    /* color  */
+    --bg:#151515;
+    --bg2:#292929;
+    --bgw:#ffffff;
+    --bgg:#B4B4B4;
+    --bgp:#F637EC;
+
+    /* font-family  */
+    --ffp:'Poppins',
+        sans-serif;
+    --ffr:'Roboto',
+        sans-serif;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body{
-    overflow-x: hidden;
-    background-color: #151515;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
+    background-color: var(--bg);
+    color: var(--bgw);
+    font-family: var(--ffp);
+}
+
+/* ================
+    Typography
+================ */
+a{
+    text-decoration: none;
+    color: var(--bgw);
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 400;
 }
 
 
-/* <-- Hero Section --> */
+/* ================
+    Header
+================ */
 
-
-.left-main{
-    padding-left: 6vw;
-} 
-
-.tag-line{
-    margin-top: 6rem ;
-    font-size:5.3rem;
-    font-weight: 300;
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid #F637EC; */
+    font-size: 0.9rem;
 }
 
-.pink{
-    color: #F637EC;
-    font-weight: 900;
+.logo{
+    /* border: 2px solid #fff; */
+    margin-top: 1.25em;
+    margin-left: 5em;
 }
 
-.line2{
+.menu-list,
+.menu-list-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     padding-top: 2rem;
-    font-size: 1.1rem;
-    font-weight: lighter;
-    color: #BBBBBB;
+    list-style: none;
+    /* border: 2px solid #fff; */
+}
+
+.menu-list{
+    width: 45vw;
+}
+
+.menu-list-right{
+    width: 20vw;
+}
+
+.btn-pink-bg{
+    position: absolute;
+    right: 7em;
+    opacity: 0.5;
 }
 
 
-.get-started{
-    padding: 4rem 0rem;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 600;
+/* ================
+    Multiple Logo's
+================ */
+
+.multi-logo{
+    background-color: var(--bg2);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid #fff; */
 }
 
-.get-img{
-    position: relative;
-    top: 0.6rem;
-    left:0.8rem;
+.multi-logo-img{
+    padding-left: 8em;
 }
 
-.get{
-    margin-left: -1.2rem; 
+
+/* ================
+    Second Section
+================ */
+
+/* .second-section{
+    display: flex;
+    align-items: center;
 }
 
-.RightArrow{
-    padding-right: 20px;
+.second-section-title{
+    padding-left: 5rem;
+    padding-top: 7rem;
 }
 
-.num-size{
-    font-size: 2.8rem;
+.second-section-span{
+    color: var(--bgp);
+    font-weight: bold;
 }
 
-.plus{
-    color: #F637EC;
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-.first{
+.second-section-para{
+    
     font-size: 1.2rem;
     font-weight: 300;
-    position: relative;
-    bottom: 2rem;
-    left: 0.8rem;
-}
-
-.second{
-    font-size: 1.2rem;
-    font-weight: 300;
-    position: relative;
-    right: 3.5rem;
-}
-
-.second-2{
-    font-size: 1.2rem;
-    font-weight: 300;
-    position: relative;
-    right: 2.8rem;
-}
-
-.vector{
-    position: relative;
-    right: 1.8rem;
-    top:1rem;
-}
-
-.number-show{
-    position: relative;
-    /* bottom: 40rem; */
-}
-
-
-.backCards{
-    position: relative;
-    bottom: 47rem;
-    left: 25rem;
-}
-
-.frontCards{
-    position: relative;
-    bottom: 89rem;
-    left: 39.7rem;
-} 
+    opacity: 0.7;
+} */
