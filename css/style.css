@@ -7,6 +7,8 @@
     --bgw:#ffffff;
     --bgg:#B4B4B4;
     --bgp:#F637EC;
+    --transcardsbg:#272727;
+    --transcards-md-bg:#4F4D4C;
 
     /* font-family  */
     --ffp:'Poppins',
@@ -55,8 +57,9 @@ h1{
 
 .logo{
     /* border: 2px solid #fff; */
-    margin-top: 1.25em;
+    margin-top: 2em;
     margin-left: 5em;
+    margin-bottom: 1em;
 }
 
 .menu-list,
@@ -90,24 +93,26 @@ h1{
 
 .multi-logo{
     background-color: var(--bg2);
-    height: 20vh;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    padding: 4em 0;
     /* border: 2px solid #fff; */
 }
 
-.multi-logo-img{
-    padding-left: 8em;
-}
+
 
 
 /* ================
     Second Section
 ================ */
 
-/* .second-section{
+.second-section{
     display: flex;
     align-items: center;
+}
+
+.second-section > h1{
+    width: 60%;
 }
 
 .second-section-title{
@@ -121,8 +126,29 @@ h1{
 }
 
 .second-section-para{
-    
+    padding-top: 5em;
+    padding-left: 2em;
+    line-height: 1.8;
+    letter-spacing: 1px;
     font-size: 1.2rem;
     font-weight: 300;
     opacity: 0.7;
-} */
+}
+
+
+/* ===========
+Transaction Cards
+============= */
+.trans-cards{
+    margin: 5em 0em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trans-cards-1{
+    height: 300px;
+    width: 300px;
+    background-color: var(--transcardsbg);
+    border: 1px solid #fff;
+    text-align: center;
+}
