@@ -326,8 +326,78 @@ Visiting Card
 ================*/
 .visiting-card{
     overflow: hidden;
+    text-align: center;
+    color: #fff;
+    height: 45em;
 }
 
 .rect-1{
    width: 100vw;
+}
+
+.rect-2{
+    width: 100vw;
+    position: relative;
+    bottom: 37em;
+}
+
+.diam-left{
+    position: relative;
+    bottom: 71em;
+    left: 26em;
+
+}
+
+.diam-right{
+    position: relative;
+    bottom: 75em;
+}
+
+.visiting-card > h1{
+    position: relative;
+    bottom: 20em;
+}
+
+.visiting-card > h1 >span{
+    color: #000;
+    font-weight: 550;
+    opacity: 0.7;
+}
+
+.visiting-card > div > h3{
+    
+    display: inline-block;
+    position: relative;
+    right: 2em;
+    bottom: 0.4em;
+    font-size: 1.3rem;
+    font-weight: 550;
+    
+}
+
+.visiting-card > div{
+    position: relative;
+    bottom: 103em;
+}
+
+/* ===========
+Footer
+============== */
+
+footer{
+    display: flex;
+    margin-bottom: 3em;
+}
+
+footer > img{
+    margin-left: 6em;
+}
+
+footer > div{
+    margin-left: 13em;
+    margin-top: 0.6em;
+}
+
+footer > div > a{
+    margin-right: 3em;
 }
