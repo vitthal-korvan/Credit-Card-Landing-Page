@@ -53,12 +53,13 @@ h1{
     justify-content: space-between;
     /* border: 2px solid #F637EC; */
     font-size: 0.9rem;
+    opacity: 0.8;
 }
 
 .logo{
     /* border: 2px solid #fff; */
     margin-top: 2em;
-    margin-left: 5em;
+    margin-left: 6em;
     margin-bottom: 1em;
 }
 
@@ -86,21 +87,108 @@ h1{
     opacity: 0.5;
 }
 
+/* ================
+    Main Section
+================ */
+.main{
+    overflow: hidden;
+}
+
+.main-left{
+    margin-left: 5em;
+    margin-top: 5em;
+}
+
+.main-left > h1{
+    letter-spacing: 0.5px;
+    font-size: 5.5rem;
+}
+
+.main-left > h1 > span{
+    color: var(--bgp);
+    font-weight: 550;
+}
+
+.main-left > p{
+    margin-top: 1em;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+}
+
+.btn-pink{
+    height: 35px;
+    margin-top: 6em;
+}
+
+.main-left > h3{
+    display: inline-block;
+    position: relative;
+    right: 2em;
+    bottom: 0.4em;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.right-arrow{
+    position: relative;
+    bottom: 0.5em;
+    right: 1em;
+}
+
+.main-left > h2{
+    margin-top: 2em;
+    display: inline-block;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.main-left > h2 > span{
+    color: var(--bgp);
+}
+
+.main-left-sub-title{
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.vector{
+    margin-left: 1em;
+    margin-right: 2em;
+    position: relative;
+    top: 1em;
+}
+
+/* main-right */
+
+.back-cards{
+    position: relative;
+    bottom: 50em;
+    left: 35em;
+}
+
+.front-cards{
+    position: relative;
+    bottom: 90em;
+    left: 50em;
+}
+
 
 /* ================
     Multiple Logo's
 ================ */
 
 .multi-logo{
+    margin-top: -80em;
     background-color: var(--bg2);
     display: flex;
     justify-content: space-around;
     padding: 4em 0;
     /* border: 2px solid #fff; */
 }
-
-
-
 
 /* ================
     Second Section
@@ -140,15 +228,106 @@ h1{
 Transaction Cards
 ============= */
 .trans-cards{
-    margin: 5em 0em;
+    margin: 8em 0em;
     display: flex;
     justify-content: space-evenly;
 }
 
 .trans-cards-1{
+    margin-top: 5em;
     height: 300px;
     width: 300px;
     background-color: var(--transcardsbg);
-    border: 1px solid #fff;
     text-align: center;
+    box-shadow: -1px -1px 5px 0 #fff;
+}
+
+.trans-cards-1 > img{
+    margin-top: 3em;
+    height: 130px;
+}
+
+.trans-cards-1 > h3{
+    margin-top: 1em;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.trans-cards-2{
+    height: 300px;
+    width: 300px;
+    background-color: var(--transcards-md-bg);
+    text-align: center;
+    box-shadow: -1px -1px 5px 1px #fff;
+}
+
+.trans-cards-2 > img{
+    margin-top: 1em;
+    height: 130px;
+}
+
+.trans-cards-2 > h3{
+    margin-top: 1em;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* =============
+Unique Card Choice
+============= */
+
+.unique-card{
+    background-color: #fff;
+    padding-top: 8em;
+    color: #000;
+    text-align: center;
+}
+
+.unique-card > h1 > span{
+    font-weight: 600;
+    color: var(--bgp);
+}
+
+.unique-card > p{
+    position: relative;
+    top: 2em;
+    margin-top: 1em;
+    opacity: 0.8;
+    font-size: 1.3rem;
+}
+
+/* ================
+Rating Card
+===================*/
+
+.rating-card{
+    background-color: var(--bg);
+    color: #fff;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+.rating-card > h1 > span{
+    color: var(--bgp);
+    font-weight: 550;
+}
+
+.rating-card > p{
+    margin-top: 2em;
+    margin-bottom: 5em;
+    font-size: 1.4rem;
+    opacity: 0.6;
+    font-weight: 300;
+}
+
+/* ==============
+Visiting Card
+================*/
+.visiting-card{
+    overflow: hidden;
+}
+
+.rect-1{
+   width: 100vw;
 }
