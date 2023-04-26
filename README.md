@@ -15,6 +15,8 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 -   learn CSS hover effect.
 -   learn using psudo element :: after and ::before.
 
+<hr>
+
 ## ▶️ Live Project Link:
 [<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://credit-cards-landing-page.netlify.app/)
 
